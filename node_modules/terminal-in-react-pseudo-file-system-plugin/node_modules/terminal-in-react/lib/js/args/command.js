@@ -1,0 +1,2 @@
+(function(a,b){if('function'==typeof define&&define.amd)define(['exports'],b);else if('undefined'!=typeof exports)b(exports);else{var c={exports:{}};b(c.exports),a.command=c.exports}})(this,function(a){'use strict';Object.defineProperty(a,'__esModule',{value:!0}),a.default=function(a,b,c,d){return Array.isArray(c)&&(d=c,c=void 0),d&&Array.isArray(d)&&(a=[].concat([a],d)),0===this.details.commands.filter(function(b){return b.usage===a}).length&&this.details.commands.push({usage:a,description:b,init:'function'==typeof c&&c}),this}});
+//# sourceMappingURL=command.js.map
